@@ -1,0 +1,35 @@
+
+div.header {
+    
+    width: 100%;
+    float: left;
+    background: #000;
+}
+
+div.child-header { max-width: 1124px;
+                  
+                    margin-left: 105px;
+                    }
+#home { 
+            background-color: #fff;
+            color: #000;
+}
+#products { color:#fff;
+             background-color: #000;
+}
+.btn.btn-a-header {    border-radius: 0;
+}
+
+.group1 { background-color:red;}
+#div1 {
+    background: #fff;
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+#div2{
+    background-color:yellow;
+    height: 200px;
+    width: 100%;
+    display: none;
+}

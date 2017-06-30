@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="ngApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- boostrap and css -->
+    <link rel="stylesheet" href="\thuvien\bootstrap-3.3.7-dist\css\bootstrap.min.css" type="text/css">
+      
+    <!--<link rel="stylesheet" href="\thuvien\bootstrap-3.3.7-dist\js\bootstrap.min.js" type="text/javascript">-->
+    <link rel="stylesheet" href="\web\css\style_home.css" type="text/css"> 
+    <link rel="stylesheet" href="\web\css\style_header.css" type="text/css"> 
+</head>
+<body data-ng-controller="myCtrl">
+    <header>
+            <div class="header">
+                <div class="child-header container">
+                    <a href="#!header_1" class="btn btn-a-header" id="home" onclick="home()">Home</a>
+                    <a href="#!header_2" class="btn btn-a-header" id="products" onclick="products()">Products</a>
+                      
+                </div>
+                <div id="div1"></div>
+                <div id="div2">
+                    <div class="alert alert-success alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+                </div>
+            
+            </div>
+    </header>
+    <div class="container">
+        
+    </div>
+
+<ng-view></ng-view>
+<!-- Jquery -->
+    <script src="../thuvien/jquery-3.2.1.min.js"></script>
+    <script src="\thuvien\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<!-- Angular -->
+    <script src="../thuvien/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!-- javascript -->    
+     <script type="text/javascript" src="../js/ng_home.js"></script>
+    <script type="text/javascript" src="../js/home.js"></script>
+
+
+
+</body>
+</html>
